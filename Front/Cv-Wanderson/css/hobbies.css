@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+}
+.testes{
+    border:solid 2px black;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 20px 20px 50px;
+    color: rgb(51, 48, 48);
+    text-align: center;
+}
+.testes:hover{
+    background-color: gray;
+}
+.interno{
+    justify-content: center;
+    
+}
+
+section li:hover{
+    background-color: brown;
+}
+nav li:hover{
+    background-color: brown;
+}

@@ -1,0 +1,48 @@
+body{
+    background-image: url(../img/fundo-tela.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 50% 45%;
+    background-size: cover;
+}
+.icons{
+    font-weight: bold;
+    color: black;
+}
+ul.lista, .container-fluid{
+    text-decoration: none;
+    list-style: none;
+}
+
+.dica-Jonas {
+    width: 50px;
+    margin-left: 40px;
+    opacity: 10px;
+}
+    
+.by-Jonas{
+    width: 100px;
+    margin-left: 40px;
+    opacity: 10px;
+}
+
+
+header,footer{
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 3px;
+    border: solid rgb(64, 123, 235);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.icons{
+    justify-content: center;
+}
+
+.icons:hover{
+    background-color:  rgb(44, 100, 204);
+    color: white;
+    margin-top: 12px;
+    margin-left: 5px;
+}

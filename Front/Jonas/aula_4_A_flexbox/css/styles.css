@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    height:750px;
+    border: 2px solid;
+    
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    font-size: 22px;   
+    margin-top: 10px;
+    flex: 1;
+}
+
+.item2 {
+    align-self: flex-end;
+}

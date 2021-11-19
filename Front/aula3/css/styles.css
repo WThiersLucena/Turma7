@@ -1,0 +1,33 @@
+#btn_com_id{
+    background-color:  green;
+    color: honeydew;
+}
+
+.btn_padrao {
+    color: honeydew;
+    background-color:  green;
+    text-transform: uppercase;
+    padding:  10px 15 px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: nome;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn_padrao:hover{
+    background-color: greenyellow;
+    
+}
+
+.off{
+    display: none;
+}
+
+.pai{
+    background-color: indigo;
+    text-align: center;
+}
+.pai .filho{
+    background-color: khaki;
+    text-align: justify;
+}

@@ -1,0 +1,77 @@
+body{
+    background-color: lightcoral;    
+}
+
+.meiota{
+    display: inline-block;
+    vertical-align: top; 
+    height: 910px;
+    margin-left: 2px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    list-style: none;       
+}
+.meiota2{
+    width: 835px;
+    height: 910px;
+    margin-left: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+        
+}
+footer{
+    border:solid 2px black;
+    box-sizing: border-box;
+    margin-top: 6px;
+    padding: 20px 20px 50px;
+    color: rgb(51, 48, 48);
+}
+
+.dados{
+    list-style: none;
+    background-color: black;
+}
+
+nav,ul{
+    padding: 0;
+    padding-left: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    display: block;
+    padding: 10px 15px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: brown;
+}
+
+section ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    display: inline-block;  
+    width: 400px;
+    text-decoration: none;
+    border:solid 2px black;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+.log-wand::after{
+    content:url('../img/fundo.png');
+    position: relative;
+}
+
+.Experiência::before{
+    content: url(../img/ExpPro.png);
+}
+

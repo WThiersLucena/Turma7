@@ -1,0 +1,83 @@
+header {
+
+}
+
+#btn_com_id, #btn_com_id2 {
+    background-color: green;
+    color: #fff
+}
+
+body .btn_padrao.texto_escuro#teste {
+    color: #333;
+}
+
+button {
+
+}
+
+button.btn_padrao {
+
+}
+
+button.btn_padrao.texto_escuro {
+    
+}
+
+button#btn_com_id {
+
+}
+
+.btn_padrao {
+    color: #fff;
+    background: rgb(14,219,14);
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    font-weight: bold;
+    font-size:22px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius:4px;
+}
+
+.btn_padrao:hover {
+    background: rgb(14,219,14);
+}
+
+.custom_link {
+    text-decoration: none;
+    color: black
+}
+
+.custom_link:active {
+    color: green
+}
+
+.custom_link:visited {
+    color: red
+}
+
+.custom_link:hover {
+    text-decoration: underline;
+}
+
+.img_teste {
+    width: 100px;
+    margin-left: 40px;
+}
+
+div > span {
+    color: red;
+}
+
+.texto-background {
+    background-image: url('../imgs/Logo_Raiadrogasil.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #fff;
+    background-size: 200px;
+}

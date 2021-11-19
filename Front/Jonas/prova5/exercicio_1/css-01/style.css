@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(175, 172, 172);
+}
+
+.conteudo{
+    background-color: blue;
+}
+
+.sec1{
+    background-color: rgb(110, 105, 105);
+    border: solid;
+    height: 50px;
+    border-width: 0 10px;
+    margin-bottom: 9px;
+}
+
+.coluna4{
+    background-color: green;
+}

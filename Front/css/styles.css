@@ -1,0 +1,81 @@
+body {
+    background-color: #e6e6e6;
+    font-family: sans-serif;
+}
+h1 {    
+    text-align: center;
+    font-style: italic;    
+}
+
+h2, h3{
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 13px;
+}
+
+strong{
+    color: orangered;
+}
+mark{
+    color: seagreen;
+    text-decoration: springgreen;
+}
+
+strong:hover {
+    color: rgb(36, 119, 197);
+}
+
+
+section {
+    background-color: rgba(73, 188, 233, 0.651);
+    width:1200px;
+    height:350px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-bottom:40px;
+    border: solid 4px blue;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.perfil{
+    width:250px;
+    height:200px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-bottom:40px;
+    border: solid 4px blue;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    
+}
+ 
+article{
+    width:1200px;
+    height:200px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-bottom:40px;
+    border: solid 4px blue;
+    text-align: center;
+    
+}

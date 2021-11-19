@@ -1,0 +1,106 @@
+
+header{
+    background-color: #ae1409;
+    text-transform: uppercase;
+    
+}
+.links a{
+    text-decoration: none;
+    color:white;
+    margin-left: 5px;
+}
+
+.linha1{
+    justify-content: space-between;
+       
+}
+.principal, .cadastro, .menu{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    align-items: center;
+    
+}
+.menu{
+    margin-top: 35px;
+}
+
+.sacola::before{
+    content: url(../img/shopping-bag.png);
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 85px;
+    color: white
+}
+.cadastro::before{
+    content: url(../img/minha-conta.png);
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -35px;
+}
+
+.buscador{
+    width: 90%;
+}
+
+.lupa::before{
+    content: url(../img/lupa-pesquisa.png);
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 545px;
+}
+.sub-principal{
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.nav-pills, .nav-link{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font: bold;
+}
+
+.trovis{
+    display: flex;
+    display:inline-block
+}
+
+.linha2{
+    align-items: center;
+    margin-top: 10px;
+}
+
+.banner{
+    justify-content: flex-start;
+}
+
+.carrosel-baner{
+    justify-content: center;
+    background-color: rgb(85, 79, 79);
+}
+.star{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 20px;
+    border: none;
+}
+
+.boleto{
+   background-color: rgb(56, 56, 58);
+}
+
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+    }

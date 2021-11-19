@@ -1,0 +1,16 @@
+body{
+    background-color: springgreen;
+}
+
+form{
+    color: rgb(33, 36, 35);
+}
+
+button:hover {
+background-color: yellow;
+text-transform: uppercase;
+}
+
+textarea {
+    resize: vertical;
+}
